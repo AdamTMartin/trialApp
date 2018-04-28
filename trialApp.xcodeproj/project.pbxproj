@@ -12,6 +12,8 @@
 		BF181B8F2039034600938D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF181B8D2039034600938D10 /* Main.storyboard */; };
 		BF181B912039034600938D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF181B902039034600938D10 /* Assets.xcassets */; };
 		BF181B942039034600938D10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF181B922039034600938D10 /* LaunchScreen.storyboard */; };
+		BF1F7E2D2039C157000B7CE1 /* generalPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F7E2C2039C157000B7CE1 /* generalPokemon.swift */; };
+		BF5F2C0B2049F44A00AC5111 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F2C0A2049F44A00AC5111 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BF181B902039034600938D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF181B932039034600938D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF181B952039034600938D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1F7E2C2039C157000B7CE1 /* generalPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generalPokemon.swift; sourceTree = "<group>"; };
+		BF5F2C0A2049F44A00AC5111 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				BF181B892039034600938D10 /* AppDelegate.swift */,
 				BF181B8B2039034600938D10 /* ViewController.swift */,
+				BF5F2C0A2049F44A00AC5111 /* SecondViewController.swift */,
 				BF181B8D2039034600938D10 /* Main.storyboard */,
+				BF1F7E2C2039C157000B7CE1 /* generalPokemon.swift */,
 				BF181B902039034600938D10 /* Assets.xcassets */,
 				BF181B922039034600938D10 /* LaunchScreen.storyboard */,
 				BF181B952039034600938D10 /* Info.plist */,
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5F2C0B2049F44A00AC5111 /* SecondViewController.swift in Sources */,
+				BF1F7E2D2039C157000B7CE1 /* generalPokemon.swift in Sources */,
 				BF181B8C2039034600938D10 /* ViewController.swift in Sources */,
 				BF181B8A2039034600938D10 /* AppDelegate.swift in Sources */,
 			);
